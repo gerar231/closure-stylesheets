@@ -1,6 +1,9 @@
 People:
+Class discussion board
 
 Resources:
 https://opensource.google.com/
 https://dwheeler.com/sloccount/
 http://www.vogella.com/tutorials/ApacheMaven/article.html
+https://www.eclemma.org/jacoco/trunk/doc/report-mojo.html
+https://maven.apache.org/surefire/maven-surefire-plugin/examples/junit.html
