@@ -1,0 +1,6 @@
+People:
+
+Resources:
+https://opensource.google.com/
+https://dwheeler.com/sloccount/
+http://www.vogella.com/tutorials/ApacheMaven/article.html
