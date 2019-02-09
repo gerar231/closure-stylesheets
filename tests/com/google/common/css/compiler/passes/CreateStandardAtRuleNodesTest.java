@@ -227,6 +227,12 @@ public class CreateStandardAtRuleNodesTest extends PassesTestBase {
         CreateStandardAtRuleNodes.INVALID_PARAMETERS_ERROR_MESSAGE);
     assertThat(isEmptyBody()).isTrue();
   }
+  
+  @Test
+  public void testMediaInvalidParameterError6() throws Exception {
+    parseAndRun("@media not { e.f { a:b } } ", CreateStandardAtRuleNodes.INVALID_PARAMETERS_ERROR_MESSAGE, CreateStandardAtRuleNodes.MEDIA_EXPECTED_LITERAL);
+    assertThat(isEmptyBody()).isTrue();
+  }
 
   @Test
   public void testCreatePageNode() throws Exception {

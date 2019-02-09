@@ -90,6 +90,9 @@ public class CreateStandardAtRuleNodes implements UniformVisitor, CssCompilerPas
   static final String IGNORE_IMPORT_WARNING_MESSAGE =
       "A node after which all @import rule nodes are ignored is here.";
 
+  @VisibleForTesting
+  static final String MEDIA_EXPECTED_LITERAL = "Expected CssLiteralNode after 'only' or 'not'.";
+
   private static final ImmutableList<Type> PAGE_SELECTORS =
       ImmutableList.of(
           Type.TOP_LEFT_CORNER,
